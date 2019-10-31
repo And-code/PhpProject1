@@ -1,12 +1,6 @@
 <?php
 
-//namespace App;
-
-//use App\NewPHPClass;
-
-//require_once '/App/NewPHPClass.php';
-
-require_once '../vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 
 use App\NewPHPClass;
 

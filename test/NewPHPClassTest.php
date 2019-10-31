@@ -33,9 +33,9 @@ class NewPHPClassTest extends TestCase{
     }
     
     
-    public function testadd() {
+    public function testAdd() {
         
-        $this->assertEquals(2, $this->my_object->add(2, 1));
+        $this->assertEquals(3, $this->my_object->add(2, 1));
         
     }
     

@@ -10,8 +10,14 @@
          stopOnFailure="false">
     <testsuites>
         <testsuite name="Unit">
-            <directory suffix="Test.php">./Test</directory>
+            <directory suffix="Test.php">./test</directory>
         </testsuite>
 
     </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./app</directory>
+            <!--<directory suffix=".php">./Public</directory>-->
+        </whitelist>
+    </filter>
 </phpunit>
